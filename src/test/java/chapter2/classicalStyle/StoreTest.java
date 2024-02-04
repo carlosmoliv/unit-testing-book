@@ -1,3 +1,5 @@
+package chapter2.classicalStyle;
+
 import entities.Customer;
 import entities.Product;
 import entities.Store;
