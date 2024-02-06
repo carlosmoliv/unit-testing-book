@@ -11,7 +11,7 @@ import static org.junit.Assert.assertEquals;
 // Extracting the common initialization code into private factory methods
 public class CustomerTests {
     @Test
-    public void Purchase_succeeds_when_enough_inventory() {
+    public void purchase_succeeds_when_enough_inventory() {
         // Arrange
         Store store = createStoreWithInventory(Product.Shampoo, 10);
         Customer customer = createCustomer();
@@ -25,7 +25,7 @@ public class CustomerTests {
     }
 
     @Test
-    public void Purchase_fails_when_not_enough_inventory() {
+    public void purchase_fails_when_not_enough_inventory() {
         // Arrange
         Store store = createStoreWithInventory(Product.Shampoo, 10);
         Customer customer = createCustomer();

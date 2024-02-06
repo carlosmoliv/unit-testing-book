@@ -10,7 +10,7 @@ import static org.mockito.Mockito.*;
 // Tests written using the London style of unit testing
 public class StoreTest {
     @Test
-    public void Purchase_succeeds_when_enough_inventory() {
+    public void purchase_succeeds_when_enough_inventory() {
         // Arrange
         IStore storeMock = mock(IStore.class);
         when(storeMock.hasEnoughInventory(Product.Shampoo, 5)).thenReturn(true);
@@ -25,7 +25,7 @@ public class StoreTest {
     }
 
     @Test
-    public void Purchase_fails_when_not_enough_inventory() {
+    public void purchase_fails_when_not_enough_inventory() {
         // Arrange
         IStore storeMock = mock(IStore.class);
         when(storeMock.hasEnoughInventory(Product.Shampoo, 5)).thenReturn(false);

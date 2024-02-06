@@ -9,7 +9,7 @@ import static org.junit.Assert.*;
 // Tests written using the classical style of unit testing
 public class StoreTest {
     @Test
-    public void Purchase_succeeds_when_enough_inventory() {
+    public void purchase_succeeds_when_enough_inventory() {
         // Arrange
         Store store = new Store();
         store.addInventory(Product.Shampoo, 10);
@@ -24,7 +24,7 @@ public class StoreTest {
     }
 
     @Test
-    public void Purchase_fails_when_not_enough_inventory() {
+    public void purchase_fails_when_not_enough_inventory() {
         // Arrange
         Store store = new Store();
         store.addInventory(Product.Shampoo, 10);
