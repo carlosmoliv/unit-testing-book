@@ -1,6 +1,6 @@
 package chapter2.reusingCommonInitialization;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 // Extracting the common initialization code into private factory methods
 public class CustomerTests extends IntegrationTests {

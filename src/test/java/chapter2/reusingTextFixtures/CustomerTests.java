@@ -3,10 +3,8 @@ package chapter2.reusingTextFixtures;
 import entities.Customer;
 import entities.Product;
 import entities.Store;
-import org.junit.Test;
-
-import static org.junit.Assert.*;
-import static org.junit.Assert.assertEquals;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 
 // Extracting the common initialization code into private factory methods
 public class CustomerTests {

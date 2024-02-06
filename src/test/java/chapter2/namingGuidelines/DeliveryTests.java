@@ -1,10 +1,10 @@
 package chapter2.namingGuidelines;
 
-import entities.Delivery;
-import org.junit.Test;
-import services.DeliveryService;
-import static org.junit.Assert.*;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 import java.time.LocalDateTime;
+import entities.Delivery;
+import services.DeliveryService;
 
 public class DeliveryTests {
     @Test

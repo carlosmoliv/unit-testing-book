@@ -3,8 +3,8 @@ package chapter2.londonStyle;
 import entities.Customer2;
 import entities.IStore;
 import entities.Product;
-import org.junit.Test;
-import static org.junit.Assert.*;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
 // Tests written using the London style of unit testing

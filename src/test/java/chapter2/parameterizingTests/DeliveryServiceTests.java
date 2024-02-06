@@ -1,13 +1,15 @@
 package chapter2.parameterizingTests;
 
 import entities.Delivery;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 import services.DeliveryService;
 import java.time.LocalDateTime;
 import static org.junit.jupiter.api.Assertions.*;
 
+// A test that encompasses several facts
+// Two tests verifying the positive and negative scenarios
 public class DeliveryServiceTests {
     @ParameterizedTest
     @ValueSource(ints = {-1, 0, 1})
