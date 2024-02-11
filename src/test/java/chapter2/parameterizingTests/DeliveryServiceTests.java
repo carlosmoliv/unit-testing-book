@@ -25,7 +25,7 @@ public class DeliveryServiceTests {
     }
 
     @Test
-    public void The_soonest_delivery_date_is_two_days_from_now() {
+    public void the_soonest_delivery_date_is_two_days_from_now() {
         DeliveryService sut = new DeliveryService();
         LocalDateTime deliveryDate = LocalDateTime.now().plusDays(2);
         Delivery delivery = new Delivery();
