@@ -1,4 +1,4 @@
-package chapter2.falsePositive;
+package messageRenderer;
 
 public class Message {
     public String header;

@@ -1,4 +1,6 @@
-package chapter2.falsePositive;
+package messageRenderer;
+
+import messageRenderer.*;
 
 import java.util.List;
 
