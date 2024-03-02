@@ -1,4 +1,4 @@
-package chapter2.brittleTests;
+package chapter4.brittleTests;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;

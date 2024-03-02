@@ -1,4 +1,4 @@
-package chapter2.trivialTest;
+package chapter4.trivialTest;
 
 public class User {
     private String name;

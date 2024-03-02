@@ -1,4 +1,4 @@
-package chapter2.namingGuidelines;
+package chapter3.namingGuidelines;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;

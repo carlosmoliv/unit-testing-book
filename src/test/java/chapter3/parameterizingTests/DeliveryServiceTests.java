@@ -1,4 +1,4 @@
-package chapter2.parameterizingTests;
+package chapter3.parameterizingTests;
 
 import entities.Delivery;
 import org.junit.jupiter.api.Test;

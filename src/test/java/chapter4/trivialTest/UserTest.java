@@ -1,4 +1,4 @@
-package chapter2.trivialTest;
+package chapter4.trivialTest;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;

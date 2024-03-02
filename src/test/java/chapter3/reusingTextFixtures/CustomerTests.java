@@ -1,4 +1,4 @@
-package chapter2.reusingTextFixtures;
+package chapter3.reusingTextFixtures;
 
 import entities.Customer;
 import entities.Product;
