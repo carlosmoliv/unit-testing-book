@@ -10,7 +10,7 @@ import static org.mockito.Mockito.*;
 import static org.mockito.Mockito.times;
 
 public class StoreTest {
-    // THe belo test is both a mock and a stub
+    // The below test is both a mock and a stub
     // It returns a mocked response ad verifies a method call
     // Sets up the answer from HasEnoughInventory() and verifies the call to RemoveInventory()
     @Test
