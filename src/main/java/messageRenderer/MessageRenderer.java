@@ -5,7 +5,10 @@ import messageRenderer.*;
 import java.util.List;
 
 public class MessageRenderer implements IRenderer {
-    private List<IRenderer> subRenderers;
+    // Leaking implementation details because the collection here is public and its not part of the observable behavior
+    // public final List<IRenderer> subRenderers;
+
+    private final List<IRenderer> subRenderers;
 
     public MessageRenderer() {
         subRenderers = List.of(
